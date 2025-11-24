@@ -23,18 +23,17 @@ input[type="checkbox"]:checked ~ nav {
   left: 0;
   width: 100%;
   background-color: var(--background-terciary--color);
-  
 }
 nav {
   display: none;
 }
-.list-links{
-    list-style: none;
+.list-links {
+  list-style: none;
 }
-.list-links li{
-    margin: 16px 0;
+.list-links li {
+  margin: 16px 0;
 }
 .list-links li a {
-    color: var(--text-secundary-color);
-    text-decoration: none;
+  color: var(--text-secundary-color);
+  text-decoration: none;
 }
