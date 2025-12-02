@@ -12,10 +12,10 @@ header {
   width: 68px;
   height: 64px;
 }
-.logo-mobile{
+.logo-mobile {
   display: block;
 }
-.logo-desktop{
+.logo-desktop {
   display: none;
 }
 .navigation-menu {
@@ -63,31 +63,30 @@ nav {
     align-items: center;
     padding: 0;
   }
-  .navigation-menu ul li{
+  .navigation-menu ul li {
     margin: 0;
   }
 }
 @media screen and (min-width: 811px) {
-  header{
+  header {
     padding: 38px 120px;
   }
-  .logo{
+  .logo {
     width: 260px;
     height: 64px;
   }
-  .logo-desktop{
+  .logo-desktop {
     display: block;
   }
-  .logo-mobile{
+  .logo-mobile {
     display: none;
   }
-  .navigation-menu a:hover{
-    color: var(--primary-color)
+  .navigation-menu a:hover {
+    color: var(--primary-color);
   }
-  
 }
 @media screen and (min-width: 1920px) {
-  header{
+  header {
     padding: 38px 160px;
   }
 }
