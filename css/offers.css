@@ -34,11 +34,27 @@
   .card{
   width: 588px;
   height: 308px;
-  font-weight: ;
 }
 .card header h3{
     font-size: 48px;
 }
 .card header span{
     font-size: 40px;   
+}
+}
+.card.japao{
+    background: url(../img/bg-card-japao.png) no-repeat;
+    background-size: cover;
+}
+.card.san-andreas{
+    background: url(../img/bg-card-sanandreas.png) no-repeat;
+    background-size: cover;
+}
+.card.paraiba{
+    background: url(../img/bg-card-paraíba.png) no-repeat;
+    background-size: cover;
+}
+.card.manaus{
+    background: url(../img/bg-card-manaus.png) no-repeat;
+    background-size: cover;
 }
